@@ -4,10 +4,10 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.2'
 
-#gem 'bootstrap-sass', '2.3.2.0' #not sure i need this but it gets mentioned in the  tutorial in listing 6.21
+gem 'bootstrap-sass', '2.3.2.0' #not sure i need this but it gets mentioned in the  tutorial in listing 6.21
 gem 'bcrypt-ruby', '3.1.2'
 
-gem 'bootstrap-sass', '2.3.2.0'
+#gem 'bootstrap-sass', '2.3.2.0'
 
 
 group :development, :test do
