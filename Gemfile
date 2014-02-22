@@ -3,7 +3,10 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.2'
+<<<<<<< HEAD
 
+=======
+>>>>>>> sign-up
 gem 'bootstrap-sass', '2.3.2.0' #not sure i need this but it gets mentioned in the  tutorial in listing 6.21
 gem 'bcrypt-ruby', '3.1.2'
 
@@ -19,6 +22,8 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+
+  gem 'factory_girl_rails', '4.2.1'
 
   # Uncomment this line on OS X.
   # gem 'growl', '1.0.3'
