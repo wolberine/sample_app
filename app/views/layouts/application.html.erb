@@ -11,13 +11,7 @@
   <body>
     <%= render 'layouts/header' %>
     <div class="container">
-<<<<<<< HEAD
-      <%= yield %>
-      <%= render 'layouts/footer' %>
-    </div>
-  </body>
-</html>
-=======
+
       <% flash.each do |key, value| %>
         <div class="alert alert-<%= key %>"><%= value %></div>
       <% end %>
@@ -27,4 +21,4 @@
     </div>
   </body>
 </html>
->>>>>>> sign-up
+

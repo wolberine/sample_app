@@ -1,7 +1,4 @@
 module UsersHelper
-<<<<<<< HEAD
-end
-=======
 
   # Returns the Gravatar (http://gravatar.com/) for the given user.
   def gravatar_for(user)
@@ -10,4 +7,4 @@ end
     image_tag(gravatar_url, alt: user.name, class: "gravatar")
   end
 end
->>>>>>> sign-up
+
