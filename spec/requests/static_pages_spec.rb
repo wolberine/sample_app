@@ -75,6 +75,14 @@ describe "Static pages" do
     it { should have_title(full_title('About Us')) }
   end
 
+  describe "Map page" do
+    before { visit map_path }
+
+
+    it { should have_content('Map') }
+    it { should have_title(full_title('Map')) }
+  end
+
   describe "Contact page" do
     before { visit contact_path }
 
